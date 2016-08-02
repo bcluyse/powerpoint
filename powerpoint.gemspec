@@ -6,11 +6,11 @@ require 'powerpoint/version'
 Gem::Specification.new do |spec|
   spec.name          = "powerpoint"
   spec.version       = Powerpoint::VERSION
-  spec.authors       = ["pythonicrubyist"]
-  spec.email         = ["pythonicrubyist@gmail.com"]
+  spec.authors       = ["bcluyse", "pythonicrubyist"]
+  spec.email         = ["cluysebernard@gmail.com"]
   spec.description   = %q{A Ruby gem that can create a PowerPoint presentation.}
   spec.summary       = %q{powerpoint is a Ruby gem that can create a PowerPoint presentation based on a standard pptx template.}
-  spec.homepage      = "https://github.com/pythonicrubyist/powerpoint"
+  spec.homepage      = "https://github.com/bcluyse/powerpoint"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -26,6 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry'
 
 
-  spec.add_dependency 'rubyzip', '~> 1'
+  spec.add_dependency 'rubyzip', '~> 0.9.9'
   spec.add_dependency 'fastimage', '~> 1'
 end
