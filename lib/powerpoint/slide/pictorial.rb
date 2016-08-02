@@ -1,4 +1,4 @@
-require 'zip/filesystem'
+require 'zip/zipfilesystem'
 require 'fileutils'
 require 'fastimage'
 require 'erb'
